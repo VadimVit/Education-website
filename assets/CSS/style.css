@@ -60,6 +60,49 @@ html {
     background: var(--red-orange-color-whell);
 }
 
-::-webkit-scrollbar-thumb {
-    background: var(--);
+::-webkit-scrollbar-thumb:hover {
+    background: var(--ultramarine-blue);
 }
+
+/* #component */
+
+
+
+
+
+/* #reused style */
+
+
+
+/* #main */
+
+.container {
+    var(--white);
+    max-width: 1440px;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+
+/* header */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 1440px;
+    background: hsla(0, 0%, 100%, 0.9);
+    backdrop-filter: blur(15px);
+    display:         flex;
+    justify-content: space-between;
+    align-items:     center;
+    padding: 10px var(--px);
+    box-shadow: 0 10px 20px -5px hsla(0, 0%, 0% 0.03);
+    }
+
+    .navbar-nav {
+
+    }
